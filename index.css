@@ -17,10 +17,8 @@ body {
     position: absolute;
     justify-content: center;
     background-color:#52758F;
-    height: 200%;
+    height: 100%;
     width: 30%;
-    min-height: fit-content;
-    top: -50%
 }
 .info_content {
     margin-left: 5%;
