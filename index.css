@@ -1,5 +1,7 @@
-
-@import url('https://fonts.cdnfonts.com/css/glacial-indifference-2');
+@font-face {
+    font-family: Glacial Indifference;
+    src: url('https://fonts.cdnfonts.com/css/glacial-indifference-2');
+}
 
 html, body{
     height: 100%;
@@ -14,7 +16,7 @@ body {
 }
 
 .information {
-    position: absolute;
+    position: fixed;
     justify-content: center;
     background-color:#52758F;
     height: 100%;
@@ -95,7 +97,6 @@ body {
 }
 
 .contact_icons{
-    border-radius: 50%;
     position: relative;
     top: 0.26vw;
     margin-left: auto;
